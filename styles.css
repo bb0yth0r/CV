@@ -1,0 +1,128 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  ;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h3 {
+  color: #11999E;
+}
+
+hr {
+  border: dotted #364f6b 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto 50px auto;
+}
+
+.skill-row {
+  margin: 50px auto 50px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.top_container {
+  background-color: #3ec1d3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle_container {
+  background-color: white;
+  margin: 100px;
+}
+
+.bottom_container {
+  background-color: #3ec1d3;
+  padding: 2%;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom_cloud {
+  position: absolute;
+}
+
+.skills_image_1 {
+  float: left;
+  margin-right: 30px;
+  height: 25%;
+  width: 25%
+}
+
+.skills_image_2 {
+  float: right;
+  margin-right: 30px;
+  height: 25%;
+  width: 25%;
+}
+
+.contact_sentence {
+  color: black;
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.contact_me {
+  padding: 10px 10px 50px 10px;
+}
+
+.contact_button {
+  box-shadow: inset 0 1px 0 0 #97c4fe;
+  background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+  background-color: #3d94f6;
+  border-radius: 6px;
+  border: 1px solid #337fed;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 13px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #1570cd;
+}
+
+.contact_button:hover {
+  background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+  background-color: #1e62d0;
+}
+
+.contact_button:active {
+  position: relative;
+  top: 1px;
+}
+
+.instagram {
+  margin: 15px 10px 0 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.github {
+  margin: 0 10px 0 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.linkedin {
+  margin: 0 10px 5px 10px;
+  height: 30px;
+  width: 100px;
+}
